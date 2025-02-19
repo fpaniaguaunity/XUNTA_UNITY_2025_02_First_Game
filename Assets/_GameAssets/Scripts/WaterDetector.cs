@@ -10,7 +10,6 @@ public class WaterDetector : MonoBehaviour
             Camera.main.transform.SetParent(null);
             //Destruir el player
             Destroy(gameObject);
-
         }
     }
 }
