@@ -5310,9 +5310,11 @@ GameObject:
   - component: {fileID: 7742007573108195686}
   - component: {fileID: 8725360922657806190}
   - component: {fileID: 6814638794477779941}
+  - component: {fileID: 9110266836987457064}
+  - component: {fileID: -1272230654593174658}
   m_Layer: 0
   m_Name: F1Rojo_T1
-  m_TagString: Untagged
+  m_TagString: Destructor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5346,7 +5348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efbdce9e6bbbf7f4f92353492a203d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6.1
+  speed: 6
 --- !u!82 &6814638794477779941
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5453,3 +5455,51 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &9110266836987457064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911233550881368562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6447365, y: 1.5079334, z: 5.1965013}
+  m_Center: {x: 0.012093484, y: 0.7498075, z: 0.01813984}
+--- !u!54 &-1272230654593174658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911233550881368562}
+  serializedVersion: 4
+  m_Mass: 1000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 32
+  m_CollisionDetection: 0

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 272913370961667417}
   - component: {fileID: 2393276262059014206}
   - component: {fileID: 5064869376362186593}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: model
-  m_TagString: Auga
+  m_TagString: Destructor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: -30, z: 0}
+  m_Center: {x: 0, y: -20, z: 0}
 --- !u!1 &300220569201838234
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,9 +117,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6747215382254096637}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Auga01
-  m_TagString: Auga
+  m_TagString: Destructor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
